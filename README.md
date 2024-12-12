@@ -2,7 +2,7 @@
 
 This repo contains UNOFFICIAL source code for "Programming: Principles and Practice Using C++", 3rd Ed. by Bjarne Stroustrup, and it is NOT affilliated with the author or publisher in any way!
 
-The author/publisher have not made source code available and rarely include full code listings in the text.  This code is based, in whole or in part, on selected examples presented in the book;however, there is one primary difference:
+The author/publisher have not made source code available and rarely include full code listings in the text.  This code is based, in whole or in part, on selected examples presented in the book; however, there is one primary difference:
 
 >   Wherever possible, the code on this site DOES NOT utilize the custom headers/module provided by the author.  See Custom Headers / Module below for more info.
 
@@ -12,7 +12,7 @@ See comments in each file and/or chapter READMEs for specific information.
 
 ## Updates:
 
-11 December 2024 -- Just getting started on this, and with the holidays coming it is likely there won't be a lot of action until the new year.
+December 2024 -- Just getting started on this, and with the holidays coming it is likely there won't be a lot of action until the new year.
 
 ## Setup
 
