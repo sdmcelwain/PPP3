@@ -14,8 +14,9 @@ int main() {
         char c = i;
         cout << "d==" << d
             << " i==" << i
-            //<< " c==" << c
-            << " c==" << (int)c
+            //<< " c==" << c                 //original text
+            //<< " c==" << (int)c            //old syle cast
+            << " c==" << static_cast<int>(c) //modern
             << " char(" << c << ")\n";
     }
 }
