@@ -2,7 +2,7 @@
 
 This repo contains UNOFFICIAL source code for "Programming: Principles and Practice Using C++", 3rd Ed. by Bjarne Stroustrup, and it is NOT affilliated with the author or publisher in any way!
 
-The author/publisher have not made source code available and rarely include full code listings in the text.  This code is based, in whole or in part, on selected examples presented in the book; however, there is one primary difference:
+The author/publisher have not made source code available and generally do not include full code listings in the text.  This code is based on selected examples presented in the book; however, there is one primary difference:
 
 >   Wherever possible, the code on this site DOES NOT utilize the custom headers/module provided by the author.  See Custom Headers / Module below for more info.
 
@@ -16,7 +16,7 @@ December 2024 -- Just getting started on this, and with the holidays coming it i
 
 ## Setup
 
-It's beyond the scope of this document to explain setup, but here is a tip for new users:  Give Microsoft Visual Studio Code (aka VS Code or vscode) a try.  Microsoft provides excellent setup information for major platforms (Windows, Linux, Mac):
+It's beyond the scope of this document to explain setup, but here is a tip for new users:  Give Microsoft Visual Studio Code a try.  Microsoft provides excellent setup information for major platforms (Windows, Linux, Mac):
 
 [C/C++ for Visual Studio Code](https://code.visualstudio.com/docs/languages/cpp)
 
@@ -24,8 +24,8 @@ It's beyond the scope of this document to explain setup, but here is a tip for n
 
 ## Custom Headers / Module
 
-On page 10 of the book, the author describes his rationale for using various custom headers and a module--essentially, to accomodate compilers that are not compatible with the c++20/23 standards and to supply various helper functions useful to the reader.  As noted above, our goal is to not use those unless absolutely necessary.
+On page 10 of the book, the author describes his rationale for using various custom headers and a module--essentially, to accomodate compilers that are not compatible with the c++20/23 standards and to supply various helper functions useful to the reader.  As noted above, our goal is to NOT use those unless absolutely necessary.
 
-Although the helper functions may prove useful, the simple fact remains that at the time this repo was started (12/2024), none of the major compilers fully support c++20/23.  In fact, msvc is the only one that supports "import std;" and it requires tweaks.  Therefore, the entire header-dance seems rather pointless and potentially confusing to new learners.  Rather than complicate things with those custom files, it was decided that using code that is compatible with modern compiler's default settings (usually c++17) would be best.  Also note that at this time there are errors in at least one of the custom headers (available on author's site).
+Although the helper functions may prove useful, the simple fact remains that at the time this repo was started (12/2024), none of the major compilers fully support c++20/23.  For example, msvc is the only one that currently supports "import std;".  Therefore, the entire header-dance seems rather pointless, cumbersome, and potentially confusing to new learners.  So, the code presented here is compatible with the default settings of modern compilers (usually c++17).  Also note that at this time there are errors in at least one of the author's custom headers.
 
-The original code referring to those headers will be included for your use, but commented out.
+The original code referring to those headers, if included in the text, will be included for your use; but it will be commented out.
