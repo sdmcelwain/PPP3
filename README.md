@@ -28,4 +28,4 @@ On page 10 of the book, the author describes his rationale for using various cus
 
 Although the helper functions may prove useful, the simple fact remains that at the time this repo was started (12/2024), none of the major compilers fully support c++20/23.  In fact, msvc is the only one that supports "import std;" and it requires tweaks.  Therefore, the entire header-dance seems rather pointless and potentially confusing to new learners.  Rather than complicate things with those custom files, it was decided that using code that is compatible with modern compiler's default settings (usually c++17) would be best.  Also note that at this time there are errors in at least one of the custom headers (available on author's site).
 
-The original code referring to those haeders will be included for your use, but commented out.
+The original code referring to those headers will be included for your use, but commented out.
