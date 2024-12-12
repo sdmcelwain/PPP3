@@ -6,7 +6,7 @@ The author/publisher have not made source code available and generally do not in
 
 >   Wherever possible, the code on this site DOES NOT utilize the custom headers/module provided by the author.  See Custom Headers / Module below for more info.
 
-Note that file names roughly match the section of the book in which they appear.  For example, the book's "Hello World" program is in chapter 1, section 1.2 and the file here is CH01/0102.cpp.  If there is more than one listing in a section, they would have -01, -02... appended.
+Note that file names roughly match the section of the book in which they appear.  For example, the book's "Hello World" program is in section 1.2 and the file here is 0102.cpp.  Subsections are not named.  That is, 1.2.x would still be 0102.cpp.  However, if there are multiple listings in a section, they would have -01, -02... appended.
 
 See comments in each file and/or chapter READMEs for specific information.
 
