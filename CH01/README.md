@@ -1,6 +1,6 @@
 # Notes
 
-This first example contains a c++23 feature:
+The "Hello World" example in this chapter contains a c++23 feature:
 
 ```c++
 import std;
