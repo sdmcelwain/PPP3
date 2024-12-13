@@ -8,7 +8,7 @@ The code here is based on selected examples presented in the book; however, ther
 
 Files are organized by chapter, and file names roughly match the section of the book in which they appear.  For example, the "Hello World" program is in section 1.2 of the book so the file here is 0102.cpp.  If there are multiple listings in a section, they will have -01, -02, ... appended.  File names do not specify subsections such as 1.2.X.
 
-See comments in each file and/or chapter READMEs for specific information.
+Be sure to checkout the READMEs for each chapter, as they contain info that will be explained once and applied throughout.
 
 ## New to C++ ?
 
