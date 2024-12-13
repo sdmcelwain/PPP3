@@ -15,7 +15,7 @@ It has been changed to use a traditional include statement, and this practice wi
 
 At the time of this writing, Microsoft C++ is the only compiler that can handle importing the standard c++ library, and even it requires some tweaks.  If you would like to try it out, see:
 
-In general (coomand line):
+In general (command line):
 
 https://learn.microsoft.com/en-us/cpp/cpp/tutorial-import-stl-named-module?view=msvc-170
 
