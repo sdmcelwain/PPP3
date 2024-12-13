@@ -8,7 +8,7 @@ int main() {
         char c = i;
         cout << "d==" << d
             << " i==" << i
-            << " c==" << c
+            << " c==" << c    // seems like he meant (int)c or static_cast<int>(c) at the end???
             << " char(" << c << ")\n";
     }
 }
