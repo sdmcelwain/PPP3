@@ -6,7 +6,7 @@ The "Hello World" example in this chapter contains a c++23 feature:
 import std;
 ```
 
-It has been changed to use a traditional include statement, and this practice will continue throughout the repo.  For example, a program that needs console I/O and strings would require two includes:
+It has been changed to use a traditional include statement.  For example, a program that needs console I/O and strings would require two includes:
 
 ```c++
 #include <iostream>
