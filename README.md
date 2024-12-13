@@ -6,7 +6,7 @@ The code here is based on selected examples presented in the book; however, ther
 
 >   When possible, this code DOES NOT utilize the custom headers and module provided on the author's site, and it should compile with default settings (c++17) on any modern compiler.  For example, includes are used instead of imports.  Notes will be provided for examples that absolutelly require c++20/23.
 
-Note that file names roughly match the section of the book in which they appear.  For example, the book's "Hello World" program is in section 1.2 and the file here is 0102.cpp.  Subsections are not named.  That is, 1.2.x would still be 0102.cpp.  However, if there are multiple listings in a section, they will have -01, -02... appended.
+File names roughly match the section of the book in which they appear.  For example, the book's "Hello World" program is in section 1.2 so the file here is 0102.cpp.  Subsections are not specified.  That is, 1.2.X would still be 0102.cpp.  However, if there are multiple listings in a section, they will have -01, -02, ... appended.
 
 See comments in each file and/or chapter READMEs for specific information.
 
